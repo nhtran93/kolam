@@ -1,0 +1,19 @@
+Package: kolam
+Title: Suite of Tools for Creating and Visualizing Kolams
+Version: 0.0.0.9000
+Authors@R: c(
+  person("Han", "Tran", email = "han_tran@eva.mpg.de", role = "cre"),
+  person("Bret", "Beheim", email = "bret_beheim@eva.mpg.de", role = "aut"))
+Description: A set of tools for processing and studying kolams. This kolam package should 	enable a way to create, draw and analyze kolam drawings. The functionality 		includes possibilities to extract information on kolam from a transcribed kolam in 	form of a .yaml file, the ability to plot kolams given a sequence of gestures or 	to extract information from a kolam object and the ability to compare kolam 		drawings. See the Github page for more information, documentation and examples.
+Depends: R (>= 3.3.2),
+	bezier,
+	plyr,
+	dplyr,	
+	grid,
+	RColorBrewer,
+	shape,
+	stringr,
+	yaml
+License: GNU AGPLv3
+Encoding: UTF-8
+LazyData: true

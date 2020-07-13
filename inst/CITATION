@@ -1,0 +1,13 @@
+citHeader("To cite kolam in publications use:")
+citEntry(entry		= "Article", 
+	title		= "Creating, analyzing and visualizing kolams using {kolamR}",
+	author		= personList(as.person("Han Tran"), 
+			as.person("Bret A. Beheim"), as.person("Timothy Waring")),
+    	journal 	= "Journal of",
+    	year 		= "2020",
+	url		= "https://github.com/nhtran93/kolam",
+	textVersion	= 
+		paste("Tran, H., Beheim, B. A., Timothy Waring (2020).",
+		"Creating, analyzing and visualizing kolams",
+		"URL https://github.com/nhtran93/kolam")   
+)

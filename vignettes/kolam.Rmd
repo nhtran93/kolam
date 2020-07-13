@@ -1,5 +1,5 @@
 ---
-title: "Introduction to kolamR"
+title: "Introduction to kolam"
 author: "Han Tran"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
